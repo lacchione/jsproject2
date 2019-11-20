@@ -135,13 +135,29 @@ img {
 
 .lightbox {
 
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: absolute;
+    top: 10vw;
+    right: 15vw; 
+    left: 20vw;
+    bottom: 10vh;
     z-index: 1;
-    background-color: rgba($color: #000000, $alpha: 0.5);
-    background-size: 100% 100%; 
-    width: 100%;
-    height: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.85);
+    width: 60vw;
+    height: 40vw;
+}
 
+.hidden {
+
+    display:none; 
+}
+
+.show {
+
+    display: block;
+    z-index: 1; 
+    position: absolute;
+    top: 48vw;
+    left: 41vw;
+    color: $font-color;
+    font-family: $body-font; 
 }
