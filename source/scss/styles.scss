@@ -130,5 +130,18 @@ td:nth-of-type(3) {
 
 img {
 
-    width: 15%;
+    width: 25%;
+}
+
+.lightbox {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    background-size: 100% 100%; 
+    width: 100%;
+    height: 100%;
+
 }

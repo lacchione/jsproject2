@@ -15,10 +15,6 @@ template: page
 |2020 Canadian Open  | TBD in March | TBD | TBD |
 
 
-![World Axe Throwing Championship](images/wcat.png)
-![Axe Throwing U.S Open](images/usopen.png)
-![Throw Down Axe Festival](images/tdaf.png)
-![South American Arnold Open](images/saao.png)
-![Canadian Open](images/co.png)
+![World Axe Throwing League](images/watl.png)
 
 
