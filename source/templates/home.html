@@ -1,0 +1,10 @@
+{% extends "source/templates/layout.html" %}
+{% block main %}
+<video autoplay muted loop id="myVideo">
+    <source src="/images/axe.mp4" type="video/mp4">
+</video>
+<article id="homeArticle">
+    {{contents | safe}}
+</article>
+
+{% endblock %}
